@@ -1,0 +1,12 @@
+class MultiThreading{
+    public static void main(String[] args){
+        
+    }
+}
+
+class Thread1 extends Thread{
+
+}
+
+
+

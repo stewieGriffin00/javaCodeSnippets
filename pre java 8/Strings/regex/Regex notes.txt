@@ -1,0 +1,25 @@
+1. import regex and pattern and matcher class
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
+2. Create an object for pattern class 
+
+Syntax:
+      Pattern object_reference = Pattern.compile(regex);
+   regex is the regular expression
+
+eg:
+    Pattern pattern = Pattern.compile("\\w+");
+
+3. Create matcher class object 
+
+Matcher matcher = pattern_class_object_reference.matcher(object);
+pattern_class_object_reference is the object of pattern class we created earlier
+object is any object string or literal string i.e "hello" only no String buffer or builders
+
+Eg:
+     Matcher mat = pat.matches("hello");
+     (or)
+    String word = "Helllo";
+    Matcher mat = pat.matches(word);

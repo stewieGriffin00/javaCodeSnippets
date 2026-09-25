@@ -1,0 +1,21 @@
+Stack class
+
+	Stack works like stack. All the object that are passed into are retrieved in reverse manner. 
+	
+	Defining Stack:
+		Stack<E> stack = new Stack<>();
+		
+		stack.push(1); stack.push(2); stack.push(3); stack.push(4);
+		
+	methods
+		push(): add objects into the stack
+		
+		pop(): retrieves and removes the last inserted object
+	
+		isEmpty(): returns true if the stack is empty.
+		
+		peek(): returns the last element. 
+			SYstem.out.println(s.peek()); // 100 (if 100 is lastest inserted element) 
+		
+		search(): returns the index of the element that was passed into.
+			System.out.println(stack.search(10)); // 2 (if 2 is the index of '10')

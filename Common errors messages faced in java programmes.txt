@@ -1,0 +1,14 @@
+Common errors messages faced in java programmes
+1. Symbol not found
+	1. it means a variable used in the programme is not declared
+	2. it means you have mistyped a pre-defined keyword 
+2. Cannot find class:
+	you may have mistyped the compiled class name.
+3.  Class names, 'YourClassName', are only accepted if annotation processing is explicitly requested
+	It means you have coompiled the file using the class names instead  of the file name
+4. class defintion already found
+	it means you have named  one of the classes defined by you similar to a pre defined class name
+5. in switch case orphaned case error
+	it means you have written the switch in switch case without lower case. 
+6. reached the end of file while parsing
+	brackets aren't closed properly 

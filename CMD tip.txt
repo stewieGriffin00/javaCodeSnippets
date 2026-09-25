@@ -1,0 +1,17 @@
+run java file indefinitely
+for /l %x in (0,0,1) do java yourJavaFile.java
+
+Compile and store the class file the inside another directory
+
+javac -d path file_name.java
+
+coompile and run file in command 
+java fileName.java 
+ note: this command will  not save the class file 
+ 
+ctrl+shift+ c 
+in vs code opens command prompt in the location where  the file you are using is.
+
+where java
+- gives the file path of JDK
+	
